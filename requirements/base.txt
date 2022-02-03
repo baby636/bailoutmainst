@@ -95,3 +95,4 @@ wiki
 django-bulk-update
 elasticsearch
 
+eth-keyfile>=0.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
