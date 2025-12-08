@@ -13,3 +13,6 @@ idna==2.7
 django-test-plus==1.1.1
 git+https://github.com/google/yapf.git#egg=yapf
 django-debug-toolbar
+django>=4.2.27 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
